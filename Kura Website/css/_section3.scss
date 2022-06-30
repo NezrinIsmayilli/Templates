@@ -1,0 +1,30 @@
+.section3{
+    background-color: #525458;
+    width: 100%;
+    p{
+        font-family: "Poppins";
+        font-weight: bold;
+        font-size: 20px;
+        color: #ff4522;
+    }
+    h4{
+        line-height: 1.2;
+        color: #fff;
+        font-weight: 800;
+        font-size: 30px;
+    }
+    table{
+        width: 100%;
+        tr{
+          border-bottom: 1px solid #A7AFBD;  
+          td{
+            color: #A7AFBD;
+            font-size: 19px;
+          }
+          .td2{
+              color: white;
+          }
+        }
+       
+    }
+}

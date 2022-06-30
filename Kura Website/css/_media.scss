@@ -1,0 +1,134 @@
+@media only screen and (max-width:1030px){
+  body{
+header{
+    nav{
+        .menu{
+
+        ul{
+           
+            width: 100%;
+            position: absolute;
+            left: 0px;
+            background-color: #303134;
+            top: 60px;
+            li{
+                clear: both;
+                margin-top: 10px;
+                
+             
+                 a:hover{
+                    color: #ff4522;
+                }
+                .active{
+                  color: white;
+                }
+            }
+        }
+
+    }
+    }
+    .header{
+
+        .row{
+      
+            .col1{
+           padding-left: 50px;
+                .h1{
+                 font-size: 30px;
+                }
+                .text{
+                   width: 50%;
+                }
+                .exps{
+                    .exp1,.exp2{
+                   
+                        h1{
+                            font-size: 40px;
+                        }
+                    }
+                }
+                .arrow{
+            display: none;
+                }
+            }
+            .col2{
+           margin-top: 50px;
+          
+                .img{
+                    transform: rotate(0deg);
+                }
+              
+                img{
+                    top: 0px;
+                    left: 48px;
+                    transform: rotate(0deg) !important;
+                }
+            }
+        }
+    }
+}
+}
+    .section1, .section5{
+      .item{
+          width: 80%;
+          height: 400px;
+      }
+      #counter{
+        display: none;
+      }
+    }
+    .section2{
+      .right{
+        display: none;
+      }
+    }
+    .section3{
+      table{
+
+        
+        tr{
+          height: 100px;
+        
+          td{
+           display: flex;
+           padding: 2px !important;
+            font-size: 15px;
+          }
+          .td1{
+            margin-top: 10px;
+          }
+ 
+        }
+      }
+    }
+    .section4{
+      .left,.right{
+        padding-left: 50px;
+
+      }
+    }
+    footer{
+      .row{
+          .left{
+              .text{
+                  .p1{
+                      width: 100%;
+                  }
+                  h6{
+                      font-size: 15px;
+                  }
+              }
+          }
+          .right{
+            margin-top: 50px;
+              input{
+                  width: 100%;
+              }
+              button{
+                  width: 100%;
+              }
+          }
+      }
+
+  }
+}

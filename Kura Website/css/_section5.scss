@@ -1,0 +1,127 @@
+.section5{
+    background-color: #4b4e53;
+    position: relative;
+
+    .head{
+        p{     
+          color: #ff4522;
+          font-weight: 500;
+        }
+        h2{
+            color: white;
+            font-weight: bold;
+        }
+    }
+    .item{
+        width: 336px;
+        height: 377px;   
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover{
+            .box{
+   
+            border-radius: 10px;
+            background-color: #4b4e53;
+         h4,p{
+             display: block !important;
+         }
+         i{
+             display: block;
+         }
+            }
+        }
+
+        .box{
+
+            width: 320px;
+            height: 361px;
+            transition: 0.6s;
+            i{
+                display: none;
+            margin-left: 240px;
+                transform: rotate(40deg);
+                color: white;
+                font-size: 30px;
+            }
+            .text{
+          
+         
+          
+            h4{
+                display: none;
+                color: white;
+                font-weight: bold;
+            }
+            p{
+                display: none;
+                color: #a7afbd;
+          
+            } 
+         }
+        }
+    }
+    .item1{background-image: url("/img/news1.jpg");}
+    .item2{background-image: url("/img/news2.jpg");}
+    .item3{background-image: url("/img/news3.jpg");}
+    .item4{background-image: url("/img/news4.jpg");}
+    .counter{
+        width: 180px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+        color: white;
+        font-size: 18px;
+        position: absolute;
+        bottom: 120px;
+        .counter2{
+  
+            .progres{
+                 width: 100px;
+                 margin: 10 20px;
+                 position: relative;
+                 .all{
+                    background-color: rgba(255,255,255,.2);
+                    height: 1px;
+                    width: 100%;
+                    position: absolute;
+                    z-index: 5;
+                     top: 0;
+                     top: 50%;
+                     left: 0;
+                        span{
+                                background-color: rgba(255,255,255,.5);
+                                 height: 1px;
+                                 width: 50%;
+                                position: absolute;
+                                z-index: 5;
+                                 top: 0;
+                                 left: 0;
+                                transform-origin: left top;
+                                transition: 0.3s;
+  
+    }
+                 }
+            }
+        }
+
+    }
+    .owl-dots{
+        display: none;
+    }
+    .owl-nav{
+        width: 98%;
+        display: flex;
+       justify-content: flex-end;
+       .owl-prev, .owl-next{
+           color: white !important;
+           font-size: 50px !important;
+           &:hover{
+               color: #ff4522 !important;
+               background-color: none;
+           }
+       }
+       
+    }
+}

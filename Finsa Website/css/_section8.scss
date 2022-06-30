@@ -1,0 +1,105 @@
+.section8{
+    .texts{
+        height: 270px;
+        .text1{
+            .line{
+                width: 35px;
+                height: 4px;
+                background-color: #ff4a17;
+               
+            }
+             h6{
+                    color: #ff4a17;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+        }
+        h1{
+            font-weight: bold;
+        }
+    }
+    .row{
+        width: 100%;
+        
+        .cols{
+            background-color:white !important;
+           
+
+            .img{
+                &:hover{
+                    .three{
+                        border: 300px solid #ff4a17;
+                       border-right: 300px solid transparent;
+                        border-bottom: 300px solid transparent;
+                    }
+                }
+                background-color: red ;
+            overflow: hidden;
+           position: relative;
+           height: 320px;
+            background-image: url("/img/team1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+        
+            .one{
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                width: 80px;
+                height: 80px;
+                border: 10px solid transparent;
+                border-bottom: 10px solid #ff4a17;
+                border-right: 10px solid #ff4a17;
+            }
+            .two{
+                position: absolute;
+                z-index: 3;
+                top: 0px;
+                left: 0px;
+                width: 0px;
+                height: 0px;
+                border: 50px solid #ff4a17;
+                opacity: 0.7;
+               border-right: 50px solid transparent;
+                border-bottom: 50px solid transparent;
+            }
+            .three{
+                position: absolute;
+                z-index: 2;
+                top: 0px;
+                left: 0px;
+                width: 0px;
+                height: 0px;
+                border: 60px solid #ff4a17;
+                opacity: 0.5;
+               border-right: 60px solid transparent;
+                border-bottom: 60px solid transparent;
+                transition: 1s;
+            }
+            i{
+                color: white;
+                z-index: 5;
+                position: absolute;
+                font-size: 20px;
+                top: 30px;
+                left: 20px;
+            }
+        }
+        .img2{
+            background-image: url("/img/team2.jpg");
+        }
+        .img3{
+            background-image: url("/img/team3.jpg");
+        }
+        .img4{
+            background-image: url("/img/team4.jpg");
+        }
+        }
+        p{
+            color: #616161;
+            font-weight: 400;
+        }
+    }
+
+
+}

@@ -1,0 +1,96 @@
+.section5{
+    .texts{
+        height: 270px;
+        .text1{
+            .line{
+                width: 35px;
+                height: 4px;
+                background-color: #ff4a17;
+               
+            }
+             h6{
+                    color: #ff4a17;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+        }
+        h1{
+            font-weight: bold;
+        }
+    }
+    .row{
+        width: 100%;
+        padding-left: 100px;
+        .cols{
+            margin-bottom: 40px;
+            background-image: url("/img/01.jpg");
+            background-repeat: no-repeat;
+            height: 400px;
+            background-size: 90%;
+            background-position: center;
+            transition: 0.5s;
+            &:hover{
+                background-size: 93%;
+                background-position: center;
+                .one, .two{
+                    left:15px;
+                }
+            
+            }
+            .one{
+
+                transition: 0.5s;
+                position: absolute;
+                z-index: 3;
+                bottom: 0px;
+                left: 20px;
+                width: 0px;
+                height: 0px;
+                border: 140px solid #ff4a17;
+                opacity: 0.7;
+               border-right: 140px solid transparent;
+                border-top: 140px solid transparent;
+
+            }
+            .two{
+                transition: 0.5s;
+                position: absolute;
+                z-index: 2;
+                bottom: 0px;
+                left: 20px;
+                width: 0px;
+                height: 0px;
+                border: 160px solid #ff4a17;
+                opacity: 0.4;
+               border-right: 160px solid transparent;
+                border-top: 160px solid transparent;
+            }
+            .text{
+                color: white;
+                position: absolute;
+                left: 30px;
+                height: 130px;
+                bottom: 10px;
+                z-index: 4;
+                i{
+                    font-size: 30px;
+                }
+            }
+        }
+        .col2{
+            background-image: url("/img/02.1.jpg");
+        }
+        .col3{
+            background-image: url("/img/03.1.jpg");
+        }
+        .col4{
+            background-image: url("/img/04.1.jpg");
+        }
+        .col5{
+            background-image: url("/img/05.1.jpg");
+        }
+        .col6{
+            background-image: url("/img/06.1.jpg");
+        }
+    }
+}
