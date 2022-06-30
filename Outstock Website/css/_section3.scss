@@ -1,0 +1,87 @@
+.section3{
+    height: 700px;
+    width: 100%;
+    .container{
+        height: 200px;
+        
+        text-align: center;
+       
+        .box1{
+            width: 400px;
+            height: 50px;
+           background-color: white;
+           left: 400px;
+           
+           bottom: 180px;
+          text-align: center;
+        }
+        h6{
+            color: #AFAFAF;
+        }
+    }
+    .container{
+        .row{
+            width: 100%;
+            height: 800px;
+           
+            .col-2{
+                width: 223px;
+                height: 400px;
+                
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                &:hover{
+                   .img{
+                   .sekil1{
+                       display: none;
+                   }
+                   .sekil2{
+                       display: block;
+                       
+                   }
+                }
+                }
+                
+               
+                .img{
+                    width: 100%;
+                    height: 300px;
+                   .sekil1{
+                       width: 100%;
+                       height: 100%;
+                       background-size: cover;
+
+                   }
+                   .sekil2{
+                    width: 100%;
+                    height: 100%;
+                    background-size: cover;
+                    display: none;
+
+                }
+                   
+                }
+                .text{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    h5{
+                        color: rgb(46, 46, 46);
+                    }
+                    pre{
+                        color: black;
+                        font-size: 15px;
+                        del{
+                            color: #8c8c8c;
+                        }
+                    }
+                    h6{
+                        color: black;
+                       
+                    }
+                }
+            }
+        }
+    }
+}

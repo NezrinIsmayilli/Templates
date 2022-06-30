@@ -1,0 +1,34 @@
+.section6{
+    width: 100%;
+    height: 500px;
+    .textt{
+        width: 100%;
+        height: 500px;
+  
+        .text{
+            width: 610px;
+            height: 300px;
+          
+            text-align: center;
+            p{
+                color: #AFAFAF;
+            }
+            form{
+                input{
+                    width: 600px;
+                    margin-top: 80px;
+                    text-align: center;
+                    border: none;
+                    padding: 5px;
+                    border-bottom: 1px solid #AFAFAF;
+                }
+            }
+            button{
+                width: 250px;
+                height: 50px;
+                border-color: black;
+                background-color: white;
+            }
+        }
+    }
+}

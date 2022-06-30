@@ -1,0 +1,207 @@
+body, *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 500px;
+    /* background-color: cadetblue; */
+    background-image: url("/img/img1.jpg");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+header .head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .head .logo{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+header .head nav{
+    width: 600px;
+}
+header .head nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+header .head nav ul li{
+    list-style: none;
+}
+header .head nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+header .head nav ul li a:hover{
+    color: red;
+}
+
+header .head .logo h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: sans-serif;
+}
+header .text{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: cursive;
+}
+
+.sec_foot{
+    width: 100%;
+    height: 1500px;
+    background-color: #2F2F2F;
+}
+.sec_foot section{
+    display: flex;
+    justify-content: space-around;
+}
+.sec_foot .text{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.sec_foot  .start{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-family: fangsong;
+}
+.sec_foot section .box{
+    background-color: #626262;
+    width: 30%;
+    height: 400px;
+}
+.sec_foot section .box .img{
+ 
+  width: 100%;
+  height: 60%;
+ 
+}
+.sec_foot section .box .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec_foot section .box .textend{
+    width: 100%;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.sec_foot section .box .textend a button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: #6999B5;
+   font-family: cursive;
+}
+.sec_foot footer{
+    width: 100%;
+    padding-top: 200px;
+    
+  
+
+}
+
+.sec_foot footer h1{
+    font-family: cursive;
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+
+}
+.sec_foot footer .contact1_2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    /* background-color: darkorchid; */
+}
+.sec_foot footer .contact1{
+    
+    width: 500px;
+    height: 500px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 650px; */
+    font-size: 20px;
+    color: #fff;
+    font-family: fangsong;
+    /* background-color: darkblue; */
+    box-sizing: border-box;
+    flex-direction: column;
+    
+}
+.sec_foot footer .contact1 .elaqe{
+    
+    padding-left: 200px;
+}
+
+.sec_foot footer .contact2{
+    /* background-color: crimson; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 500px;
+    height: 500px;
+    /* padding-right: 100px; */
+}
+.sec_foot footer .contact2 .input form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec_foot footer .contact2  .input input{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10%;
+    padding: 20px;
+    background-color: hsl(0, 1%, 73%);
+}
+.sec_foot footer .contact2 .input textarea{
+    border-radius: 10%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: hsl(0, 1%, 73%);
+}
+.sec_foot footer .contact2 .input button{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10%;
+    background-color:#6999B5;
+    font-family: sans-serif;
+
+}
+
+
