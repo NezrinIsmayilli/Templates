@@ -1,0 +1,53 @@
+.section4{
+    height: 650px;
+    background-color: #272727;
+    .container{
+        height: 900px;
+
+        h1{
+            span{
+                color:#B19777 ;
+            }
+        }
+        button{
+            width: 10px;
+            height: 10px;
+          
+        }
+    
+          
+      .row{
+          .col{
+              &:hover{
+                  img{
+                    animation: pulse; 
+                    animation-duration: 2s; 
+                  }
+                  .qutu{
+                    animation: slideOutUp; 
+                    animation-duration: 1s;
+                  }
+              }
+              img{
+                  transition: 1s;
+                  
+        
+              }
+            
+          }  
+          .qutu{
+                 transition: 2s;
+                  width: 450px;
+                  background-color: #323232;
+                  z-index: 3;
+                
+     
+                  h3{
+                      color: #B19777;
+                  }
+              }
+      
+    }
+        }
+       
+    }

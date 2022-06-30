@@ -1,0 +1,50 @@
+.section3{
+    width: 100%;
+    height: 600px;
+   background-color:#272727;
+    .container{
+        
+        h1{
+            span{
+                color: #B19777;
+            }
+        }
+        .row{
+            .col-3{
+                &:hover{
+                    
+                    background: #323232;
+                .line{
+                    width: 100%;
+                }
+                .numb{
+                    -webkit-text-stroke: 1px #B19777 ;
+                }
+                }
+            
+            
+          
+                img{
+                    width: 70px;
+                    height: 50px;
+                }
+                .line{
+                    color: #B19777;
+                    transition: 1s;
+                    width: 20%;
+    
+   
+                }
+                p{
+                   color: #c4c4c4; 
+                }
+                .numb{
+                   font-family: 'Oswald', sans-serif;
+                   color: transparent;
+                   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+ 
+                }
+            }
+        }
+    }
+}

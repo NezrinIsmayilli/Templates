@@ -1,0 +1,397 @@
+header {
+  width: 100%;
+  height: 800px;
+  background-color: #272727;
+}
+header .carousel {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 1;
+}
+header .carousel .navbar {
+  z-index: 2;
+  position: absolute;
+  right: 150px;
+  top: 80px;
+}
+header .carousel .navbar .collapse ul li a {
+  color: white;
+  font-size: 17px;
+}
+header .carousel .navbar .collapse ul li a:hover {
+  color: rgb(243, 206, 125);
+}
+header .carousel .logos {
+  width: 250px;
+  height: 200px;
+  background-color: #272727;
+  position: absolute;
+  left: 0px;
+  z-index: 2;
+}
+header .carousel .logos .logo {
+  width: 240px;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+}
+header .carousel .logos .logo a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .carousel .logos .logo a img {
+  width: 100px;
+  height: 80px;
+}
+header .carousel .logos .logo a h2 {
+  font-size: 50px;
+  color: #B19777;
+}
+header .carousel .logos .logo a h5 {
+  font-size: 15px;
+  color: #a19280;
+}
+header .carousel .carousel1 {
+  width: 90%;
+  height: 655px;
+}
+header .carousel .carousel1 img {
+  width: 100%;
+  height: 655px;
+  position: relative;
+}
+header .carousel .carousel1 .text {
+  width: 600px;
+  height: 400px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+header .carousel .carousel1 .text h1 {
+  letter-spacing: 10px;
+}
+header .carousel .carousel1 .text h1 span {
+  display: flex;
+  justify-content: flex-end;
+}
+header .carousel .carousel1 .text button {
+  background-color: transparent;
+  border: 2px solid white;
+  width: 130px;
+  transition: 1s;
+  color: white;
+}
+header .carousel .carousel1 .text button:hover {
+  background-color: white;
+  color: black;
+}
+header .carousel .carousel-control-prev {
+  position: absolute;
+  z-index: 2;
+  left: 90px;
+  top: 500px;
+}
+header .carousel .carousel-control-prev .button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .carousel .carousel-control-prev .button .carousel-control-prev-icon {
+  width: 1rem;
+}
+header .carousel .carousel-control-next {
+  position: absolute;
+  z-index: 2;
+  left: 170px;
+  top: 500px;
+}
+header .carousel .carousel-control-next .button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .carousel .carousel-control-next .button .carousel-control-next-icon {
+  width: 1rem;
+}
+
+.section1 {
+  background-color: #272727;
+}
+.section1 .row {
+  width: 100%;
+  height: 400px;
+}
+.section1 .row .col {
+  position: relative;
+}
+.section1 .row .col h1 {
+  color: white;
+  letter-spacing: 8px;
+  line-height: 100px;
+  word-spacing: 15px;
+}
+.section1 .row .col h1 span {
+  color: rgb(243, 206, 125);
+}
+.section1 .row .col p {
+  color: rgb(192, 192, 192);
+}
+.section1 .row .col .img1 {
+  width: 100%;
+  height: 350px;
+  transition: 2s;
+}
+.section1 .row .col .img1:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  /* referring directly to the animation's @keyframe declaration */
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  /* don't forget to set a duration! */
+}
+.section1 .row .col .qutu {
+  width: 200px;
+  height: 50px;
+  background-color: #313131;
+  position: absolute;
+  z-index: 2;
+  bottom: 20px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section1 .row .col .qutu h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.section2 {
+  height: 750px;
+  padding-top: 100px;
+  background-color: #272727;
+}
+.section2 .carousel .carousel-indicators button {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+.section2 .carousel .carousel-inner .carousel-item .row {
+  width: 100%;
+  height: 500px;
+}
+.section2 .carousel .carousel-inner .carousel-item .row .col {
+  transition: 1s;
+}
+.section2 .carousel .carousel-inner .carousel-item .row .col:hover .text {
+  -webkit-animation: slideOutUp;
+          animation: slideOutUp;
+  /* referring directly to the animation's @keyframe declaration */
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  /* don't forget to set a duration! */
+}
+.section2 .carousel .carousel-inner .carousel-item .row .col img {
+  width: 100px;
+  height: 400px;
+  position: relative;
+}
+.section2 .carousel .carousel-inner .carousel-item .row .col .text {
+  z-index: 3;
+  bottom: 120px;
+  left: 180px;
+}
+.section2 .carousel .carousel-inner .carousel-item .row .col .text h5 {
+  margin-left: 50px;
+  color: #B19777;
+}
+
+.section3 {
+  width: 100%;
+  height: 600px;
+  background-color: #272727;
+}
+.section3 .container h1 span {
+  color: #B19777;
+}
+.section3 .container .row .col-3:hover {
+  background: #323232;
+}
+.section3 .container .row .col-3:hover .line {
+  width: 100%;
+}
+.section3 .container .row .col-3:hover .numb {
+  -webkit-text-stroke: 1px #B19777;
+}
+.section3 .container .row .col-3 img {
+  width: 70px;
+  height: 50px;
+}
+.section3 .container .row .col-3 .line {
+  color: #B19777;
+  transition: 1s;
+  width: 20%;
+}
+.section3 .container .row .col-3 p {
+  color: #c4c4c4;
+}
+.section3 .container .row .col-3 .numb {
+  font-family: "Oswald", sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+}
+
+.section4 {
+  height: 650px;
+  background-color: #272727;
+}
+.section4 .container {
+  height: 900px;
+}
+.section4 .container h1 span {
+  color: #B19777;
+}
+.section4 .container button {
+  width: 10px;
+  height: 10px;
+}
+.section4 .container .row .col:hover img {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+.section4 .container .row .col:hover .qutu {
+  -webkit-animation: slideOutUp;
+          animation: slideOutUp;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+.section4 .container .row .col img {
+  transition: 1s;
+}
+.section4 .container .row .qutu {
+  transition: 2s;
+  width: 450px;
+  background-color: #323232;
+  z-index: 3;
+}
+.section4 .container .row .qutu h3 {
+  color: #B19777;
+}
+
+footer {
+  width: 100%;
+  height: 1000px;
+  background-color: #272727;
+}
+footer .boxs {
+  width: 100%;
+  height: 700px;
+  background-color: #323232;
+}
+footer .boxs .box1 {
+  background-image: url("img/2.jpg");
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+footer .boxs .box1 .icontext .icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: #c0ac97;
+  transition: 1s;
+}
+footer .boxs .box1 .icontext .icon:hover {
+  border: 1px solid white;
+}
+footer .boxs .box1 .icontext .icon i {
+  font-size: 40px;
+}
+footer .boxs .container {
+  height: 200px;
+}
+footer .boxs .container .box2 {
+  width: 100%;
+}
+footer .boxs .container .box2 .col-1 img {
+  width: 140px;
+  height: 120px;
+}
+footer .boxs .box3 {
+  z-index: 4;
+  right: 100px;
+  bottom: 70px;
+  background-color: #272727;
+}
+footer .boxs .box3 .carousel4 {
+  width: 400px;
+  height: 250px;
+}
+footer .boxs .box3 .carousel4 .buttons button {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+footer .boxs .box3 .carousel4 .carousel-item p {
+  color: #939393;
+}
+footer .boxs .box3 .carousel4 .carousel-item .author img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+footer .boxs .box3 .carousel4 .carousel-item .author .authortext h5 {
+  color: #B19777;
+}
+footer .boxs .box3 .carousel4 .carousel-item .author .authortext .h5-2 {
+  color: #939393;
+}
+footer .end1 h5 {
+  color: #B19777;
+}
+footer .end1 h6 {
+  color: #939393;
+}
+footer .end2 h6 {
+  color: #939393;
+}
+footer .end2 ul {
+  width: 250px;
+}
+footer .end2 ul li {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #939393;
+}
+footer .end2 ul li:hover {
+  border: 1px solid #B19777;
+}
+footer .end2 ul li:hover i {
+  color: #B19777;
+}
+footer .end2 ul li i {
+  color: #939393;
+}/*# sourceMappingURL=style.css.map */

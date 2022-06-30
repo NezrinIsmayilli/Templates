@@ -1,0 +1,132 @@
+footer{
+    width: 100%;
+    height: 1000px;
+    background-color: #272727;
+    
+   .boxs{
+       width: 100%;
+       height: 700px;  
+        background-color: #323232 ;
+  
+       .box1{
+           
+           background-image: url('img/2.jpg');
+           background-attachment: fixed;
+           width: 100%;
+           height: 500px;
+           background-size: cover;
+           .icontext{
+
+
+              
+           .icon{
+                width: 120px;
+               height: 120px;
+               border-radius: 100%;
+               background-color: #c0ac97;
+               transition: 1s;
+               &:hover{
+                   border: 1px solid white;
+               }
+               i{
+                   font-size: 40px;
+                  
+               }
+           }
+        }
+
+       }
+       .container{
+           height: 200px;
+       .box2{
+           width: 100%;
+        //    height: 300px;
+           .col-1{
+               img{
+                   width: 140px;
+                   height: 120px;
+               }
+           }
+        
+       }
+    }
+    .box3{
+        z-index: 4;
+        right: 100px;
+        bottom: 70px;
+        background-color: #272727 ;
+        
+            .carousel4{
+                width: 400px;
+                height: 250px;
+                .buttons{
+                    button{
+                        border-radius: 100%;
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+                .carousel-item{
+                    p{
+                        color: #939393;
+                    }
+                    .author{
+                        img{
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 100%;
+                        }
+                        .authortext{
+                            h5{
+                           color: #B19777; 
+                            }
+                            .h5-2{
+                                color: #939393;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+    
+   
+   }
+   .end1{
+       h5{
+        color: #B19777;
+       }
+       h6{
+           color:#939393 ;
+       }
+   }
+   .end2{
+    h6{
+        color:#939393 ;
+    }
+       ul{
+           width: 250px;
+           
+           li{
+                 width: 40px;
+               height: 40px;
+               border-radius: 100%;
+               background-color: transparent;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               border: 1px solid #939393;
+               &:hover{
+                   border: 1px solid #B19777;
+                   i{
+                   color: #B19777; 
+                   }
+               }
+               i{
+                   color:#939393 ;
+               }
+           }
+       }
+   }
+}

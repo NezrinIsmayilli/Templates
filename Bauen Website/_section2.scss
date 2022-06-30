@@ -1,0 +1,48 @@
+.section2{
+    height: 750px;
+    padding-top: 100px;
+    background-color: #272727;
+.carousel{
+   
+    .carousel-indicators{
+        button{
+            border-radius: 100%;
+            width: 10px;
+            height: 10px;
+        }
+    }
+.carousel-inner{
+    .carousel-item{
+    .row{
+        width: 100%;
+        height: 500px;
+        .col{ 
+            transition: 1s;
+      &:hover{
+            .text{
+                animation: slideOutUp; /* referring directly to the animation's @keyframe declaration */
+                animation-duration: 2s; /* don't forget to set a duration! */
+            }
+        }
+    img{
+        width: 100px;
+        height: 400px;
+        position: relative;
+      
+    }
+    .text{
+        z-index: 3;
+        bottom: 120px;
+        left: 180px;
+        h5{
+            margin-left: 50px;
+            color: #B19777;
+        }
+    }
+ 
+}
+}
+}
+}
+}
+}
