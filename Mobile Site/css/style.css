@@ -1,0 +1,561 @@
+body {
+  background-image: url("/img/bg.png");
+  width: 100%;
+  height: 2000px;
+  background-size: cover;
+}
+
+body header {
+  width: 100%;
+  height: 130px;
+  z-index: 2;
+}
+
+body header nav {
+  width: 100%;
+}
+
+body header nav .buttontext {
+  width: 220px;
+}
+
+body header nav .buttontext .text .img1 {
+  width: 40px;
+  height: 40px;
+}
+
+body header nav .img2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+body .search {
+  margin-top: 80px;
+}
+
+body .search input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #cfcece;
+  border-radius: 20px;
+}
+
+body .search button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #4DC3FF;
+  color: white;
+  border: none;
+}
+
+.section1 {
+  width: 100%;
+}
+
+.section1 .rows {
+  width: 95%;
+  background-color: white;
+  border-radius: 15px;
+  height: 350px;
+  z-index: 1;
+  position: relative;
+  border: 1px solid #b4b2b2;
+}
+
+.section1 .rows .head {
+  width: 100%;
+}
+
+.section1 .rows .head .icon {
+  width: 60px;
+  height: 20px;
+}
+
+.section1 .rows .head .icon:hover ul {
+  display: block;
+}
+
+.section1 .rows .head ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: around;
+      -ms-flex-pack: around;
+          justify-content: around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  right: 0px;
+  width: 120px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+  display: none;
+  background-color: white;
+}
+
+.section1 .rows .row {
+  width: 100%;
+  height: 120px;
+}
+
+.section1 .rows .row .col-3 {
+  width: 95px;
+  height: 120px;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.section1 .rows .row .col-3 img {
+  width: 100%;
+  height: 75%;
+  border-radius: 10px;
+}
+
+.section1 .rows .row .col-3 p {
+  font-size: 13px;
+  color: #B5B5B5;
+}
+
+.section2 .owl-carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.section2 .owl-carousel .card {
+  width: 380px;
+  border-radius: 10px;
+}
+
+.section2 .owl-carousel .card img {
+  border-radius: 10px;
+  height: 170px;
+}
+
+.section2 .owl-carousel .card .icon1 {
+  width: 60px;
+  height: 30px;
+  background-color: #2F2D51;
+  top: 130px;
+  left: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.section2 .owl-carousel .card .icon1 i {
+  color: white;
+}
+
+.section2 .owl-carousel .card .icon1 span {
+  color: white;
+}
+
+.section2 .owl-carousel .card .icon2 {
+  right: 10px;
+  font-size: 40px;
+}
+
+.section2 .owl-carousel .card .icon2:hover i {
+  color: #FF7EA3;
+}
+
+.section2 .owl-carousel .card .icon2 i {
+  color: pink;
+}
+
+.section2 .owl-carousel .card .texts {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section2 .owl-carousel .card .texts:hover h5 {
+  border-bottom: 1px solid black;
+}
+
+.section2 .owl-carousel .card .texts:hover p {
+  border-bottom: 1px solid black;
+}
+
+.section2 .owl-carousel .card .texts .text1 {
+  width: 120px;
+}
+
+.section2 .owl-carousel .card .texts .text1 a h5 {
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section2 .owl-carousel .card .texts .text1 a p {
+  color: #A7A7A7;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section2 .owl-carousel .card .texts .text1 a p i {
+  color: yellow;
+  font-size: 13px;
+}
+
+.section2 .owl-carousel .card .texts .text2 {
+  width: 150px;
+}
+
+.section2 .owl-carousel .card .texts .text2 p {
+  color: #A7A7A7;
+  font-size: 13px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section3 .card {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.section4 {
+  width: 100%;
+}
+
+.section4 .rows {
+  width: 95%;
+  background-color: white;
+  border-radius: 15px;
+  height: 200px;
+  z-index: 1;
+  position: relative;
+  border: 1px solid #b4b2b2;
+}
+
+.section4 .rows .head {
+  width: 100%;
+}
+
+.section4 .rows .head .icon {
+  width: 60px;
+  height: 20px;
+}
+
+.section4 .rows .head .icon i:hover {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.section4 .rows .head ul {
+  display: none;
+}
+
+.section4 .rows .row {
+  width: 100%;
+  height: 120px;
+}
+
+.section4 .rows .row .col-3 {
+  width: 95px;
+  height: 120px;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.section4 .rows .row .col-3 .iconn {
+  color: white;
+  background-color: #2F2D51;
+  width: 95px;
+  height: 90px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section4 .rows .row .col-3 .iconn i {
+  font-size: 50px;
+}
+
+.section4 .rows .row .col-3 img {
+  width: 100%;
+  height: 75%;
+  border-radius: 10px;
+}
+
+.section4 .rows .row .col-3 p {
+  font-size: 13px;
+  color: #B5B5B5;
+}
+
+.section5 .owl-carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.section5 .owl-carousel .card {
+  width: 380px;
+  border-radius: 10px;
+}
+
+.section5 .owl-carousel .card img {
+  border-radius: 10px;
+  height: 170px;
+}
+
+.section5 .owl-carousel .card .icon1 {
+  width: 60px;
+  height: 30px;
+  background-color: #2F2D51;
+  top: 130px;
+  left: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.section5 .owl-carousel .card .icon1 i {
+  color: white;
+}
+
+.section5 .owl-carousel .card .icon1 span {
+  color: white;
+}
+
+.section5 .owl-carousel .card .icon2 {
+  right: 10px;
+  font-size: 40px;
+}
+
+.section5 .owl-carousel .card .icon2:hover i {
+  color: #FF7EA3;
+}
+
+.section5 .owl-carousel .card .icon2 i {
+  color: pink;
+}
+
+.section5 .owl-carousel .card .texts {
+  height: 80px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section5 .owl-carousel .card .texts:hover h5 {
+  border-bottom: 1px solid black;
+}
+
+.section5 .owl-carousel .card .texts:hover p {
+  border-bottom: 1px solid black;
+}
+
+.section5 .owl-carousel .card .texts .text1 {
+  width: 120px;
+  height: 40px;
+}
+
+.section5 .owl-carousel .card .texts .text1 a h5 {
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section5 .owl-carousel .card .texts .text1 a p {
+  color: #A7A7A7;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section5 .owl-carousel .card .texts .text1 a p i {
+  color: yellow;
+  font-size: 13px;
+}
+
+.section5 .owl-carousel .card .texts .text2 {
+  height: 30px;
+  width: 150px;
+}
+
+.section5 .owl-carousel .card .texts .text2 p {
+  color: #A7A7A7;
+  font-size: 13px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section6 .card {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.section7 .box1 {
+  background-color: white;
+  width: 400px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.section7 .box1 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.section7 .box1 .imgicon {
+  background-color: #2F2D51;
+  color: white;
+  border: 1px solid #2F2D51;
+  bottom: 35px;
+  left: 35px;
+  border-radius: 10px;
+  padding: 2px 8px 2px 8px;
+}
+
+.section7 .box1 .texts {
+  width: 250px;
+  height: 110px;
+}
+
+.section7 .box1 .texts .text {
+  height: 50px;
+}
+
+.section7 .box1 .texts .text h6 {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section7 .box1 .texts .text h6:hover {
+  border-bottom: 1px solid black;
+}
+
+.section7 .box1 .texts .text p {
+  color: #A7A7A7;
+  font-size: 13px;
+}
+
+.section7 .box1 .texts .text p i {
+  color: yellow;
+}
+
+.section7 .box1 .icons .icon1 {
+  width: 80px;
+}
+
+.section7 .box1 .icons .icon2 i {
+  color: #fa8598;
+}
+
+.section8 .box1 {
+  background-color: white;
+  width: 400px;
+  height: 170px;
+  border-radius: 15px;
+}
+
+.section8 .box1 .text {
+  width: 250px;
+  height: 150px;
+}
+
+.section8 .box1 .text h6 {
+  color: #BDBDBD;
+}
+
+.section8 .box1 .text button {
+  border-color: #4A9DFF;
+  background-color: #4A9DFF;
+  color: white;
+  width: 100px;
+  height: 35px;
+  border-radius: 30px;
+  padding: 2px 10px 2px 10px;
+  font-size: 13px;
+}
+
+.section8 .box2 {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.section8 .box2 h6 {
+  color: #8d8d8d;
+}
+
+.section8 .box2 p {
+  color: #8d8d8d;
+}
+
+.section8 .box2 button {
+  width: 120px;
+  height: 35px;
+  background-color: #4DC3FF;
+  color: white;
+  border-radius: 20px;
+  padding: 2px 10px 2px 10px;
+  font-size: 15px;
+  border-color: #4DC3FF;
+}
+
+footer .box {
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+footer .box h5 {
+  padding: 20px 10px 20px 30px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+footer .box .link {
+  border-bottom: 1px solid #d8d8d8;
+  padding: 13px 10px 13px 60px;
+  color: #6b6b6b;
+}
+
+footer .box .link:hover {
+  background-color: #F8F9FA;
+}
+
+footer .end {
+  width: 400px;
+}
+
+footer .end .end1 p {
+  color: #9F9F9F;
+}
+
+footer .end .end1 .icons {
+  width: 150px;
+}
+
+footer .end .end1 .icons i {
+  font-size: 25px;
+  color: #999999;
+}
+
+footer .end .end2 h6 {
+  color: #9F9F9F;
+}
+/*# sourceMappingURL=style.css.map */

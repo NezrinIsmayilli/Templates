@@ -1,0 +1,43 @@
+footer{
+  .box{
+      width: 400px;
+      background-color: white;
+      border-radius: 20px;
+      h5{
+        padding: 20px 10px 20px 30px;
+        border-bottom: 1px solid rgb(216, 216, 216);
+      }
+ .link{
+     border-bottom: 1px solid rgb(216, 216, 216);
+     padding: 13px 10px 13px 60px;
+     color: #6b6b6b;
+     &:hover{
+         background-color: #F8F9FA;
+     }
+ }
+  }
+  .end{
+      width: 400px;
+
+      .end1{
+          p{
+              color: #9F9F9F;
+          }
+          .icons{
+             
+              width: 150px;
+              i{
+                  font-size: 25px;
+                  color: #999999;
+                
+              }
+
+          }
+      }
+      .end2{
+          h6{
+              color: #9F9F9F;
+          }
+      }
+  }
+}

@@ -1,0 +1,126 @@
+.section3{
+    .buttons{
+        height: 100px;
+        #button1{
+            background-color: #59B210;
+            color: white;
+            font-weight: bold;
+            height: 70px;
+           
+        }
+        button{
+            background-color: rgb(233, 231, 231);
+            margin-right: 2px;
+            border: none;
+            width: 120px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+    .row{
+        transition: 1s;
+        height: 450px;
+        .col{
+          
+            &:hover{
+                box-shadow: 0px 0px 5px 5px grey;
+                .extra{
+                    display: block;
+                }
+
+            }
+        
+        .box{
+            border: 1px solid rgb(199, 197, 197);
+         
+            height: 370px;
+            .sale1{
+                top: 10px;
+                left: 0;
+                background-color: #f8484a;
+                width: 80px;
+                color: white;
+                font-weight: bold;
+
+            }
+            .sale2{
+                height: 25px;
+                padding-top: 3px;
+                top: 40px;
+                left: 0;
+                background-color: #59B210;
+                width: 90px;
+                color: white;
+                font-weight: bold;
+                font-size: 13px;
+                
+
+            }
+            .sale3{
+                background-color: #407ac5;
+                height: 25px;
+                padding-top: 3px;
+                top: 40px;
+                left: 0;
+                width: 80px;
+                color: white;
+                font-weight: bold;
+                font-size: 13px;
+            }
+            h6{
+                color: blue;
+                font-weight: bold;
+          
+            }
+            .h6{
+                    
+                color: #b7b7b7;
+            
+        }
+            p{
+                font-size: 15px;
+            }
+            h5{
+                color: #301c53;
+                font-weight: bold;
+
+                
+            }
+           
+       
+
+        }
+        .extra{
+           display: none;
+            height: 80px;
+            position: relative;
+            width: 100%;
+           
+            // border-top: 1px solid rgb(199, 197, 197);
+        
+            button{
+                margin-left: 60px;
+                position: absolute;
+                bottom: 55px;
+                border: none;
+                background-color: #59B210;
+                width: 130px;
+                height: 40px;
+                border-radius: 10px;
+                color: white;
+                font-weight: bold;
+              
+            }
+            p{
+                font-size: 13px;
+                margin-left: 50px;
+
+            }
+        }
+    }
+    }
+    #row2, #row3{
+        display: none;
+    }
+
+}

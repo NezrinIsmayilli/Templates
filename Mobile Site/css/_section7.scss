@@ -1,0 +1,59 @@
+.section7{
+        
+        .box1{
+            background-color: white;
+            width: 400px;
+            margin-top: 10px;
+        
+            border-radius: 10px;
+            img{
+                width: 80px;
+                height: 80px;
+                border-radius: 10px;
+          
+            }
+            .imgicon{
+                background-color: #2F2D51 ;
+                color: white;
+                border: 1px solid #2F2D51;
+                bottom: 35px;
+               left: 35px;
+               border-radius: 10px;
+               padding: 2px 8px 2px 8px ;
+  
+            }
+      .texts{
+                    width: 250px;
+                    height: 110px;
+                 
+                    .text{
+                        height: 50px;
+                       h6{
+                           transition: 1s;
+                           &:hover{
+                               border-bottom: 1px solid black;
+                           }
+                       }
+                        p{
+                            color: #A7A7A7;
+                            font-size: 13px;
+                        i{
+                            color: yellow;
+                        }
+                        }
+                    }
+                }
+                .icons{
+                    .icon1{
+                        width: 80px;
+                      
+                    }
+                    .icon2{
+                        i{
+                            color: rgb(250, 133, 152);
+                        }
+                    }
+                }
+        }
+    
+}

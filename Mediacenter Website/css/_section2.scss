@@ -1,0 +1,50 @@
+.section2{
+    margin-top: 100px;
+        .boxs{
+            width: 100%;
+            .box1{
+                width: 530px;
+                height: 170px;
+               background-image: url("/img/banner-narrow-01.jpg");
+               background-repeat: no-repeat;
+               background-size: 100%;
+               background-position: center;
+               transition: 0.5s;
+               &:hover{
+                   background-size: 110%;
+                   background-position:center ;
+               }
+               h1{
+                   font-weight: bold;
+               }
+               h4{
+                font-weight: 100;
+                font-size: 20px;
+                line-height: 36px;
+               }
+            }
+
+            .box2{
+                width: 530px;
+                height: 170px;
+               background-image: url("/img/banner-narrow-02.jpg");
+               background-repeat: no-repeat;
+               background-size: 100%;
+               background-position: center;
+               transition: 0.5s;
+               &:hover{
+                   background-size: 110%;
+                   background-position:center ;
+               }
+               h1{
+                   font-weight: bold;
+               }
+               h4{
+                font-weight: 100;
+                font-size: 20px;
+                line-height: 36px;
+               }
+            }
+        }
+    
+}
