@@ -1,0 +1,84 @@
+.calculator {
+  background-color: aqua;
+  height: 640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculator .cal {
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 370px;
+  padding-top: 10px;
+}
+
+.calculator .cal table {
+  background-color: black;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 370px;
+}
+
+.calculator .cal table tr th {
+  width: 300px;
+  height: 60px;
+}
+
+.calculator .cal table tr th input {
+  padding: 5px;
+  width: 280px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: red;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.calculator .cal table tr th input:focus {
+  outline: none;
+}
+
+.calculator .cal table tr td button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-left: 10px;
+  background-color: #272727;
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.calculator .cal table tr td button:hover {
+  background-color: #7a7a7a;
+  color: red;
+}
+
+.calculator .cal table tr td .green {
+  color: yellowgreen;
+}
+
+.calculator .cal table tr td .bggreen {
+  background-color: #8ccc0b;
+}
+
+.calculator .cal table tr td .clean {
+  color: #ff6c09;
+}
+/*# sourceMappingURL=style.css.map */
