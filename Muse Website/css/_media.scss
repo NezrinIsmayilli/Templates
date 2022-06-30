@@ -1,0 +1,205 @@
+@media only screen and (max-width:767px){
+    .section1{
+        width: 100%;
+      
+        .container{
+            .row{
+                .col{
+
+                    img{
+                        margin-top: 30px;
+                        width: 400px;
+                        height: 200px;
+                    }
+                    h1{
+                        font-size: 35px;
+                        
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+ 
+                }
+            }
+    
+        }
+    }
+
+
+    .section3{
+        .container{
+           
+            h1{
+                font-size: 25px;
+               
+            }
+            .p{
+                width: 400px;
+                line-height: 20px;
+                font-size:15px;
+            }
+            img{
+                width: 450px;
+            }
+           
+            button{
+                width: 150px;
+                height: 30px;
+               top: 290px;
+              
+             
+            }
+        }
+    }
+
+
+    .section4{
+        .container{
+            .row{
+                .col{
+                    h1{
+                        font-size: 27px;
+                    }
+                  
+                   
+                    .row1{
+                       margin-top: 50px;
+                       .col-3{
+                        
+                        box-shadow:10px 10px 10px grey;  
+                    }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .section5{
+        margin-top: 100px;
+        .container{
+            .row{
+                width: 100%;
+                justify-content: center;
+    
+                .box{
+                    width: 90%;
+                   margin-bottom: 40px;
+                    box-shadow:5px 5px 6px grey;
+                }
+            }
+        }
+    }
+
+
+    .section6{
+        .container{
+    
+            .text{
+                width: 400px;
+            
+               h1{
+                  font-size: 20px;
+               }
+    
+            }
+            .row{
+              width: 100%;
+              display: flex;
+              align-items: center;
+              
+                 .box{
+                  width: 95%;
+          
+                  margin-bottom: 30px;
+                  
+                  .h1{
+                    
+                      font-size: 40px;
+                  }
+                  
+               
+                .text1{
+                    height: 30px;
+               
+                }
+                button{
+                  
+                    height: 50px;
+                    
+                }
+              
+            }
+            }
+           .endtext{
+               width: 100%;
+           }
+    
+              .endimg{
+               .text{
+                   
+                  
+                  
+                   padding: 5px;
+                   p{
+                      
+                       font-size: 15px;
+                   }
+                   button{
+                    width: 150px;
+                    height: 50px;
+                
+    
+                }
+               
+               }
+               img{
+                   left: 100px;
+                   top: 95px;
+               }
+          
+              
+             
+             
+              
+              
+           }
+    
+    
+        } 
+    }
+    footer{
+      width: 100%;
+        .container{
+            .row{
+                .columns{
+                    margin-right: 0px;
+                    
+                
+                }
+            }
+        }
+        .end{
+            height: 60px;
+            .icons{
+                width: 100px;
+                i{
+                    &:hover{
+                        color: #20C997;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

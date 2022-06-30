@@ -1,0 +1,51 @@
+.section5{
+    width: 100%;
+   
+    .container{
+        width: 100%;
+    
+        padding: 0;
+        .row{
+            width: 100%;
+    
+            display: flex;
+            justify-content: space-between;
+
+            .box{
+                width: 350px;
+                height: 420px;
+             
+                border-radius: 15px;
+                border: 1px solid rgb(197, 195, 195);
+                box-shadow:10px 10px 20px grey;
+                transition: 0.2s;
+                &:hover{
+                   transform: translateY(-5px); 
+                }
+                
+                h1{
+                    font-weight: bold;
+                    font-size: 30px;
+                }
+                .icons{
+    
+                 width: 95%; 
+                
+                    .icon{
+                        border-radius: 100%;
+                        width: 40px;
+                        height: 40px;
+                        background-color: white;
+                        &:hover{
+                            background-color: #44D2A8;
+                            i{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+}

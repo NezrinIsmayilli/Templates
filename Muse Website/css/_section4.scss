@@ -1,0 +1,45 @@
+.section4{
+    width: 100%;
+  
+    // background-color: blueviolet;
+   
+    .container{
+        // background-color: rgb(204, 68, 68);
+        .row{
+            // background-color: burlywood;
+            .col{
+                // background-color: cadetblue;
+                h1{
+                    font-weight: bold;
+                    font-size: 46px;
+                }
+                .p{
+                    width: 450px;
+                    // background-color: chartreuse;
+                    p{
+                        line-height: 30px;
+                    }
+                }
+                a{
+                    color: #44D2A8;
+                    font-weight: bold;
+                    &:hover{
+                        color: #212529;
+                    }
+                }
+                .row1{
+                   
+                    width: 400px;
+                    height: 100px;
+                  .col-3{
+                      background-color: white;
+                      border: 1px solid rgb(235, 232, 232);
+                      border-radius: 10px; 
+                      box-shadow:20px 20px 30px grey;  
+                  }
+                
+                }
+            }
+        }
+    }
+}
